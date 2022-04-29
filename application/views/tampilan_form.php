@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/formsiswa.css" type="text/css">
+    <!-- <link rel="stylesheet" href="assets/css/formsiswa.css" type="text/css"> -->
     <title>Form data siswa/siswi</title>
 </head>
 <body>
 <?php echo validation_errors(); ?>
-<form action="<?=base_url('data/cetak'); ?>"method="post">
+<form action="<?=base_url('Data/cetak'); ?>"method="post">
     <div id="Form">
         <header>
             <h1>Model Prototipe Pada Digital Learning Management System (Di-Lemas)</h1>
